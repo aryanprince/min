@@ -131,7 +131,6 @@
 				};
 
 			// Events.
-			// Note: If you're *not* using AJAX, get rid of this event listener.
 				$form.addEventListener('submit', function(event) {
 
 					event.stopPropagation();
@@ -144,8 +143,6 @@
 						$submit.disabled = true;
 
 					// Process form.
-					// Note: Doesn't actually do anything yet (other than report back with a "thank you"),
-					// but there's enough here to piece together a working AJAX submission call that does.
 						window.setTimeout(function() {
 
 							// Reset form.
